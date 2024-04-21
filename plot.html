@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Twinkling Watermelon - K-drama</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="cast.html">CAST</a></li>
+                <li><a href="plot.html">PLOT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" o nclick="showMenu()"></i>
+    </nav>
+    <h1>PLOT</h1>
+</section>
+
+<!-------- plot page ------->
+
+<section class="plot">
+    <h1>Twinkling Watermelon Plot</h1>
+    <p>Ha Eun Gyeol is a music lover, but he is also the trophy 
+        son of his deaf parents and the only one in his family who can 
+        connect with the outside world. He has a deaf brother who does taekwondo. 
+        So he needs to be responsible for all of them, but his guitar continues 
+        calling to him, and he's not sure if he should pursue music. 
+        One night, a miraculous event happens, and he travels in 1995, when his 
+        parents are now his age, and he is now going to play cupid for his future 
+        parents as the younger version of his father a vivacious kid who is in a band, 
+        chasing a popular girl, and has no interest in education.</p>
+    
+        <div class="row">
+            <div class="plot-col">
+                <img src="images/one.png">
+            </div>
+            <div class="plot-col">
+                <img src="images/two.png">
+            </div>
+            <div class="plot-col">
+                <img src="images/three.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="plot-col">
+                <img src="images/four.png">
+            </div>
+            <div class="plot-col">
+                <img src="images/five.png">
+            </div>
+            <div class="plot-col">
+                <img src="images/six.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="plot-col">
+                <img src="images/seven.png">
+            </div>
+            <div class="plot-col">
+                <img src="images/eight.png">
+            </div>
+            <div class="plot-col">
+                <img src="images/nine.png">
+            </div>
+        </div>
+</section>
+
+
+<!-------JavaScript for Toggle Menu------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
+
+
+ 

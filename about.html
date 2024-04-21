@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Twinkling Watermelon - K-drama</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="cast.html">CAST</a></li>
+                <li><a href="plot.html">PLOT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" o nclick="showMenu()"></i>
+    </nav>
+    <h1>ABOUT</h1>
+</section>
+
+<!---------- about content ---------->
+<section class="about">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>What is Twinkling Watermelon all about?</h1>
+            <p>This drama explores the problem that many young people 
+            face: whether to pursue a life that makes them 
+            happy by doing what they enjoy, or to follow their 
+            parents' ambitions and meet their parents' expectations. 
+            Eun Gyeol, the main character who is a CODA (Child Of Deaf Adults), 
+            struggles to balance his passions and his family's demands until 
+            he is given the opportunity to change the direction of their lives
+            by traveling back in time to when his parents were his age. 
+            We are also faced with the question: 
+            "Would our lives be better if we could change the past?".</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.png">
+        </div>
+    </div>
+
+</section>
+
+<!-------JavaScript for Toggle Menu------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
+
+
+ 
